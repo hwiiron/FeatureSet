@@ -1,0 +1,23 @@
+header {
+  background: #343a46;
+  width: 250px;
+  height: 100%;
+  padding: 30px 0;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+header ul li {
+  margin-top: 20px;
+}
+
+header ul li a {
+  color: #fff;
+}
+
+header ul li a:hover {
+  color: #58c4dc;
+  transition: 0.2s;
+}
