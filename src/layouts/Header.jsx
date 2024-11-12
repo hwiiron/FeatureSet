@@ -35,6 +35,11 @@ const list = [
     to: "/NumberReplace",
   },
   {
+    id: 5,
+    name: "스켈레톤 UI",
+    to: "/Skeleton",
+  },
+  {
     id: 99,
     name: "TEST",
     to: "/test",
