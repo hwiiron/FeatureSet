@@ -1,4 +1,3 @@
-import React from "react";
 import { StyledSkeleton, Item, Title, SubTitle, Text } from "./Skeleton.styles";
 
 const Skeleton = () => {
