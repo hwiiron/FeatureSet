@@ -46,6 +46,11 @@ const list = [
     to: "/Skeleton",
   },
   {
+    id: 15,
+    name: "Material UI Avatar",
+    to: "/TotalMessage",
+  },
+  {
     id: 99,
     name: "TEST",
     to: "/test",

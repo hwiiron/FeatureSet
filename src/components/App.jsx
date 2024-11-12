@@ -7,10 +7,11 @@ import Home from "./Home";
 import Tags from "./Tags/Tags";
 import FilePreview from "./File-Preview/FilePreview";
 import NumberReplace from "./NumberReplace/NumberReplace";
+import Skeleton from "./Skeleton/Skeleton";
+import TotalMessage from "./TotalMessage/TotalMessage";
 
 import Test from "./Test/Test";
 import Notfound from "./Notfound";
-import Skeleton from "./Skeleton/Skeleton";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/tags" element={<Tags />} />
         <Route path="/NumberReplace" element={<NumberReplace />} />
         <Route path="/Skeleton" element={<Skeleton />} />
+        <Route path="/TotalMessage" element={<TotalMessage />} />
 
         <Route path="/Test" element={<Test />} />
 
