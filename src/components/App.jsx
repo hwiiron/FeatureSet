@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 
 import Header from "../layouts/Header";
-import Home from "./Home";
+import Home from "./FeatureSet";
 import Tags from "./Tags/Tags";
 import FilePreview from "./File-Preview/FilePreview";
 import NumberReplace from "./NumberReplace/NumberReplace";
@@ -17,7 +17,7 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/featureSet" element={<Home />} />
         <Route path="/filePreview" element={<FilePreview />} />
         <Route path="/tags" element={<Tags />} />
         <Route path="/NumberReplace" element={<NumberReplace />} />

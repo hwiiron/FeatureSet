@@ -11,7 +11,7 @@ const list = [
   {
     id: 0,
     name: "Home",
-    to: "/",
+    to: "/featureSet",
   },
   {
     id: 1,

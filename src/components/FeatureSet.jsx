@@ -1,4 +1,4 @@
-const Home = () => {
+const FeatureSet = () => {
   const style = {
     fontSize: "30px",
     color: "#fff",
@@ -11,4 +11,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default FeatureSet;
