@@ -10,7 +10,6 @@ import NumberReplace from "./NumberReplace/NumberReplace";
 import Skeleton from "./Skeleton/Skeleton";
 import TotalMessage from "./TotalMessage/TotalMessage";
 
-import Test from "./Test/Test";
 import Notfound from "./Notfound";
 
 function App() {
@@ -24,8 +23,6 @@ function App() {
         <Route path="/NumberReplace" element={<NumberReplace />} />
         <Route path="/Skeleton" element={<Skeleton />} />
         <Route path="/TotalMessage" element={<TotalMessage />} />
-
-        <Route path="/Test" element={<Test />} />
 
         <Route path="*" element={<Notfound />}></Route>
       </Routes>

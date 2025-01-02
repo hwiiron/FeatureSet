@@ -15,14 +15,14 @@ const list = [
   },
   {
     id: 1,
-    name: "Portfolio",
+    name: "포트폴리오 홈페이지",
     to: "https://hwiiron.com/portfolio/",
     target: "_blank",
   },
   {
     id: 2,
-    name: "Rolling",
-    to: "https://boulder-headstand-90d.notion.site/1352bd9cf4b08089a0cfc9c0ce13135c?pvs=4",
+    name: "Notion 이력서",
+    to: "https://boulder-headstand-90d.notion.site/About-Me-1422bd9cf4b080d69e83cfe9b70cf75d?pvs=4",
     target: "_blank",
   },
   {
@@ -49,11 +49,6 @@ const list = [
     id: 15,
     name: "Material UI Avatar",
     to: "/TotalMessage",
-  },
-  {
-    id: 99,
-    name: "TEST",
-    to: "/test",
   },
 ];
 
